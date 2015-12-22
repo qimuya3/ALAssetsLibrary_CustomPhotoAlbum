@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = "qimuya3"
   s.platform     = :ios, "5.0"
-  s.source       = { :git => "http://code.taobao.org/svn/ALAssetsLibrary_CustomPhotoAlbum/", :tag => "0.1.1" }
+  s.source       = { :git => "https://github.com/qimuya3/ALAssetsLibrary_CustomPhotoAlbum.git", :tag => s.version.to_s }
   s.source_files  = "*.{h,m}"
 
 end
